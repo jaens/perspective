@@ -8,7 +8,6 @@ const {ReplacePlugin} = require("@finos/perspective-esbuild-plugin/replace");
 const {build} = require("@finos/perspective-esbuild-plugin/build");
 const path = require("path");
 
-
 const NBEXTENSION_PATH = path.resolve(
     __dirname,
     "..",
